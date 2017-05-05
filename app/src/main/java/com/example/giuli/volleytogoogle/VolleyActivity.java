@@ -35,7 +35,7 @@ public class VolleyActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         // Display the first 500 characters of the response string.
-                        mTextView.setText("Response is: "+ response);//
+                        mTextView.setText("Response is: "+ response);
                     }
                 }, new Response.ErrorListener() {
             @Override
